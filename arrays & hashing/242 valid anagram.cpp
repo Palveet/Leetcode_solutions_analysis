@@ -14,6 +14,7 @@ public:
         return true;
     }
 };
+//O(N)
 
 
 // class Solution {
