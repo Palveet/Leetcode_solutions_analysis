@@ -20,7 +20,17 @@ Search (Find): O(log n)
 Traversal: O(n) (elements are in sorted order)
 
 4. Unordered Map:
-nsertion: Average case O(1), Worst case O(n) (due to rehashing)
+Insertion: Average case O(1), Worst case O(n) (due to rehashing)
 Deletion: Average case O(1), Worst case O(n)
 Search (Find): Average case O(1), Worst case O(n)
 Traversal: O(n) (elements are not in any particular order)
+
+5. Max Heap
+Insertion (push): O(log n)
+Deletion (pop): O(log n)
+Access (top): O(1)
+
+6. Min Heap
+Insertion (push): O(log n)
+Deletion (pop): O(log n)
+Access (top): O(1)
