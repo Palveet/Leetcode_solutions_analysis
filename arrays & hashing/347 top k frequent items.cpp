@@ -92,3 +92,7 @@ The overall time complexity is dominated by the term that grows fastest with \(N
 This is why \(O(N \log k)\) is considered the dominant term in this context.
 
 */
+
+
+//TC: O(N log K)
+//SC: O(N+K)
