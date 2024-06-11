@@ -8,8 +8,8 @@ public:
             smap[s[i]]++;
             tmap[t[i]]++;
         }
-        for(int i=0;i<smap.size();i++){
-            if(smap[i]!=tmap[i])return false;
+        for (auto it = smap.begin(); it != smap.end(); ++it) {
+            if (tmap[it->first] != it->second) return false;
         }
         return true;
     }
