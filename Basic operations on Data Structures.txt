@@ -12,3 +12,15 @@ Insertion: O(log n)
 Deletion: O(log n)
 Search (Find): O(log n)
 Traversal: O(n) (elements are in sorted order)
+
+3. Map:
+Insertion: O(log n)
+Deletion: O(log n)
+Search (Find): O(log n)
+Traversal: O(n) (elements are in sorted order)
+
+4. Unordered Map:
+nsertion: Average case O(1), Worst case O(n) (due to rehashing)
+Deletion: Average case O(1), Worst case O(n)
+Search (Find): Average case O(1), Worst case O(n)
+Traversal: O(n) (elements are not in any particular order)
