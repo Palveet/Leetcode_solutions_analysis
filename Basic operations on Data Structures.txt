@@ -1,4 +1,4 @@
-Time complexity of different operations on diffrent datasets:
+Time complexity of different operations on different datasets:
 
 
 1. Unordered Set:
