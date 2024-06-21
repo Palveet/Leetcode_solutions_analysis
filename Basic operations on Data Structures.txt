@@ -34,3 +34,5 @@ Access (top): O(1)
 Insertion (push): O(log n)
 Deletion (pop): O(log n)
 Access (top): O(1)
+
+min heap : priority_queue<int,vector<int>,greater<int>>minh;
