@@ -37,3 +37,40 @@ public:
 
 //TC:O(N)
 //SC:O(N)
+
+
+class Solution {
+public:
+    bool backspaceCompare(string s, string t) {
+        int i = 0;
+        int j = 0;
+        while (i < s.size()) {
+            if (s[i] == '#') {
+                if (i == 0) {
+                    s.erase(s.begin() + i);
+                } else {
+                    s.erase(s.begin() + i - 1, s.begin() + i + 1);
+                    i = i - 1;
+                }
+            } else
+                i++;
+        }
+        while (j < t.size()) {
+            if (t[j] == '#') {
+                if (j == 0) {
+                    t.erase(t.begin() + j);
+                } else {
+                    t.erase(t.begin() + j - 1, t.begin() + j + 1);
+                    j = j - 1;
+                }
+
+            } else
+                j++;
+        }
+        return s == t;
+    }
+};
+
+
+//TC:O(N)
+//SC:O(1)
