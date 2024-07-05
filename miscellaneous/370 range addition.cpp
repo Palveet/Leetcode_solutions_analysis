@@ -12,4 +12,4 @@ public:
 };
 
 //TC:O(N+K)
-//SC:O(1)
+//SC:O(N)
