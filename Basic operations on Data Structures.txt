@@ -36,3 +36,13 @@ Deletion (pop): O(log n)
 Access (top): O(1)
 
 min heap : priority_queue<int,vector<int>,greater<int>>minh;
+
+7. Deque
+push_back(value), push_front(value): Amortized O(1)
+pop_back(), pop_front(): Amortized O(1)
+operator[]: O(1)
+at(index): O(1)
+front(), back(): O(1)
+size(): O(1)
+empty(): O(1)
+clear(): O(n)
